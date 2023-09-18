@@ -27,7 +27,7 @@ namespace Tyuiu.KarpovAA.Sprint1.Task0.V11
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("*ИСХОДНЫЕ ДАННЫЕ: 4*5/2-18/2/3                                            *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("*    РЕЗУЛЬТАТ                                                            *");
+            Console.WriteLine("*   РЕЗУЛЬТАТ                                                             *");
             Console.WriteLine("***************************************************************************");
 
             Console.WriteLine(ds.Calculate());
