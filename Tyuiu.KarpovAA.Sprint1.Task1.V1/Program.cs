@@ -26,7 +26,7 @@ namespace Tyuiu.KarpovAA.Sprint1.Task1.V1
             Console.WriteLine("* вычесляет результат по формуле x/3/y+6*a и печатает его на экране.      *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
+            Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ: x/3/y+6*a                                              *");
             Console.WriteLine("***************************************************************************");
 
             double x, y, a;
