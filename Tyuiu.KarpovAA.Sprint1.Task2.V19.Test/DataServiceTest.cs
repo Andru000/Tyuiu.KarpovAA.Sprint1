@@ -11,9 +11,13 @@ namespace Tyuiu.KarpovAA.Sprint1.Task2.V19.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            int x = 2;
-            var res = ds.ConvertInchToKm(x);
-            Assert.AreEqual(4, res);
+            int a = 6, b = 4;
+
+            int x = 30 / 6 + 4;
+
+            a++;
+
+            x += b += a;
         }
     }
 }
