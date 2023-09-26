@@ -16,7 +16,7 @@ namespace Tyuiu.KarpovAA.Sprint1.Task1.V1.Test
             double a = 3.0;
 
             var res = ds.Calculate(x, y, a);
-            Assert.AreEqual(1, res);
+            Assert.AreEqual(18.167, res);
         }
     }
 }
