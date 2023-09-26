@@ -30,7 +30,7 @@ namespace Tyuiu.KarpovAA.Sprint1.Task5.V2
             Console.WriteLine("***************************************************************************");
 
 
-            Console.WriteLine("Введите значение X:");
+            Console.WriteLine("Введите значение температуры в градусах Фаренгейта:");
             double temp = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("***************************************************************************");
@@ -38,7 +38,7 @@ namespace Tyuiu.KarpovAA.Sprint1.Task5.V2
             Console.WriteLine("***************************************************************************");
 
             int res = Convert.ToInt32(ds.FahrenheitToСelsius(temp));
-            Console.WriteLine(res);
+            Console.WriteLine(res + " градусов Цельсия");
             Console.ReadKey();
         }
     }
